@@ -1,0 +1,12 @@
+---
+title: "Overview"
+author: "John J. Nay"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+`estimate_program()` evolves any probabilistic function that best minimizes a chosen loss function (`compute_log_lik `, `compute_identity`, `compute_rmse`) by combining building blocks of a function and a type system that ensures the validity of the class of each input and output.
